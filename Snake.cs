@@ -22,9 +22,5 @@ namespace zoo_h.w
 		{
 			return $"poisonous = {poisonous} " + base.ToString();
 		}
-		//public string ToString()
-		//{
-		//	return "Object Snake poisonous=true";
-		//}
 	}
 }

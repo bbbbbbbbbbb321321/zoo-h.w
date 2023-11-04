@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace zoo_h.w
 {
-	class Crocodile:Reptile
+	class Crocodile : Reptile
 	{
 		private bool teeth;
 
 		public Crocodile(bool teeth, int length, string name, int age, bool isPredator, int calories)
-			:base(length, name, age, isPredator, calories)
+			: base(length, name, age, isPredator, calories)
 		{
 			this.teeth = teeth;
 		}

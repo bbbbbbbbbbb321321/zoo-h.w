@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace zoo_h.w
 {
-	class Cow:Mammal
+	class Cow : Mammal
 	{
 		private int birthNum;
 
-		
 
-		public Cow(int birthNum, int month, int milk, string name, int age, bool isPredator, int calories):base(month, milk, name, age, isPredator, calories)
+
+		public Cow(int birthNum, int month, int milk, string name, int age, bool isPredator, int calories) 
+			: base(month, milk, name, age, isPredator, calories)
 		{
 			this.BirthNum = birthNum;
 		}
